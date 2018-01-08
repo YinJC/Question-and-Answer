@@ -53,7 +53,7 @@ Texstudio菜单栏选项--设置Texstudio--语法高亮--正常--那一行（几
  {https://github.com/liantze/pgfornament-han/}  
  
  \href{http://tex.my/mail-merge-batch-generating-documents-with-datatool-package/}%
- {http://tex.my/mail-merge-batch-generating-documents-with-datatool-package/}
+ {http://tex.my/mail-merge-batch-generating-documents-with-datatool\\-package/}
 
 \begin{qst}\label{Q2018010806}
  集合之间不包含符号怎么输入？\index{不包含}
@@ -61,5 +61,12 @@ Texstudio菜单栏选项--设置Texstudio--语法高亮--正常--那一行（几
 \ans \verb| sprout  $\not\subset$|。
 
 还可以看看手写符号识别\url{ http://detexify.kirelabs.org/classify.html}\index{手写符号识别}
+
+\begin{qst}\label{Q2018010807}
+全英文的文档怎么弄人民币符号？\index{RMB符号}
+\end{qst}
+\ans 导言区调用宏包\verb| \usepackage{textcomp}|, 正文中使用\verb|\textyen|得到\textyen.
+
+还可以看看这个帖子\url{http://bbs.ctex.org/forum.php?mod=viewthread&tid=76024}
 
 \end{document} 
